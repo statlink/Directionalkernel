@@ -1,27 +1,26 @@
 {
-    "id": "D9D4DAB6",
-    "path": "~/GitHub/Directionalkernel/man/vm.nb.Rd",
-    "project_path": "man/vm.nb.Rd",
+    "id": "A2DD0F69",
+    "path": "~/GitHub/Directionalkernel/man/kernreg.Rd",
+    "project_path": "man/kernreg.Rd",
     "type": "r_doc",
     "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1794999617140.0,
+    "created": 1794999905459.0,
     "source_on_save": false,
-    "relative_order": 2,
+    "relative_order": 6,
     "properties": {
-        "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "51,17",
-        "scrollLine": "45"
+        "cursorPosition": "72,41",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1794999646,
+    "lastKnownWriteTime": 1794998988,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1794999646094,
+    "last_content_update": 1794998988,
     "read_only": false,
     "read_only_alternatives": []
 }
