@@ -49,6 +49,7 @@ observations are split across threads using OpenMP.
 }
 
 \value{
+A list including:
 \item{class}{
 The estimated class of the new data.
 }

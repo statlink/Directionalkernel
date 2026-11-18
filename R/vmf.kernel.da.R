@@ -17,3 +17,6 @@ vmf.kernel.da <- function(ynew, y, ina, h = "rot", ncores = 1) {
   res <- kernel_da_cpp( t(ynew), t(y), as.integer(ina), kappa, cons, as.integer(ncores) )
   list( h = h, class = res$class, score = res$score )
 }
+
+
+

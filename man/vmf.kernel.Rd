@@ -1,4 +1,4 @@
-\name{von Mises-Fisher kernel density estimation for (hyper-)spherical data}
+\name{vmf.kernel}
 \alias{vmf.kernel}
 \title{
 Kernel density estimation for (hyper-)spherical data using a von Mises-Fisher kernel

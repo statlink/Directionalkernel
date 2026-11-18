@@ -88,9 +88,13 @@ R implementation and documentation: Michail Tsagris \email{mtsagris@uoc.gr}.
 }
 
 \examples{
-y1 <- Rfast::rvonmises(100, 1, 5, rads = TRUE)
-y2 <- Rfast::rvonmises(100, 3, 3, rads = TRUE)
-y <- c(y1, y2)
+x1 <- Rfast::rvonmises(100, 1, 5, rads = TRUE)
+x2 <- Rfast::rvonmises(100, 3, 5, rads = TRUE)
+y1 <- cbind(x1, x2)
+x1 <- Rfast::rvonmises(100, 3, 3, rads = TRUE)
+x2 <- Rfast::rvonmises(100, 2, 5, rads = TRUE)
+y2 <- cbind(x1, x2)
+y <- rbind(y1, y2)
 ina <- rep(1:2, each = 100)
-mod <- cv.vmkernelda(y, ina)
+mod <- cv.vmnb(y, ina)
 }
